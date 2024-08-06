@@ -1,0 +1,176 @@
+Timestamp: 2024-02-25 17:43:45
+# HELP python_gc_objects_collected_total Objects collected during gc
+# TYPE python_gc_objects_collected_total counter
+python_gc_objects_collected_total{generation="0"} 374.0
+python_gc_objects_collected_total{generation="1"} 72.0
+python_gc_objects_collected_total{generation="2"} 18.0
+# HELP python_gc_objects_uncollectable_total Uncollectable objects found during GC
+# TYPE python_gc_objects_uncollectable_total counter
+python_gc_objects_uncollectable_total{generation="0"} 0.0
+python_gc_objects_uncollectable_total{generation="1"} 0.0
+python_gc_objects_uncollectable_total{generation="2"} 0.0
+# HELP python_gc_collections_total Number of times this generation was collected
+# TYPE python_gc_collections_total counter
+python_gc_collections_total{generation="0"} 272.0
+python_gc_collections_total{generation="1"} 24.0
+python_gc_collections_total{generation="2"} 2.0
+# HELP python_info Python platform information
+# TYPE python_info gauge
+python_info{implementation="CPython",major="3",minor="10",patchlevel="12",version="3.10.12"} 1.0
+# HELP process_virtual_memory_bytes Virtual memory size in bytes.
+# TYPE process_virtual_memory_bytes gauge
+process_virtual_memory_bytes 1.17590016e+09
+# HELP process_resident_memory_bytes Resident memory size in bytes.
+# TYPE process_resident_memory_bytes gauge
+process_resident_memory_bytes 1.58892032e+08
+# HELP process_start_time_seconds Start time of the process since unix epoch in seconds.
+# TYPE process_start_time_seconds gauge
+process_start_time_seconds 1.70885894776e+09
+# HELP process_cpu_seconds_total Total user and system CPU time spent in seconds.
+# TYPE process_cpu_seconds_total counter
+process_cpu_seconds_total 8.41
+# HELP process_open_fds Number of open file descriptors.
+# TYPE process_open_fds gauge
+process_open_fds 7.0
+# HELP process_max_fds Maximum number of open file descriptors.
+# TYPE process_max_fds gauge
+process_max_fds 1.048576e+06
+# HELP total_number_of_messages_received_total Number of messages received
+# TYPE total_number_of_messages_received_total counter
+total_number_of_messages_received_total 91.0
+# HELP total_number_of_messages_received_created Number of messages received
+# TYPE total_number_of_messages_received_created gauge
+total_number_of_messages_received_created 1.7088589485410647e+09
+# HELP MLP_socket_reconnections_counter_total Number of reconnections to the MLLP socket
+# TYPE MLP_socket_reconnections_counter_total counter
+MLP_socket_reconnections_counter_total 0.0
+# HELP MLP_socket_reconnections_counter_created Number of reconnections to the MLLP socket
+# TYPE MLP_socket_reconnections_counter_created gauge
+MLP_socket_reconnections_counter_created 1.7088589485410776e+09
+# HELP total_number_of_results_received_total Number of blood test results received
+# TYPE total_number_of_results_received_total counter
+total_number_of_results_received_total 59.0
+# HELP total_number_of_results_received_created Number of blood test results received
+# TYPE total_number_of_results_received_created gauge
+total_number_of_results_received_created 1.7088589485410872e+09
+# HELP admitted_number_of_patients_total Number of admitted patients
+# TYPE admitted_number_of_patients_total counter
+admitted_number_of_patients_total 18.0
+# HELP admitted_number_of_patients_created Number of admitted patients
+# TYPE admitted_number_of_patients_created gauge
+admitted_number_of_patients_created 1.7088589485410945e+09
+# HELP discharged_number_of_patients_total Number of discharged patients
+# TYPE discharged_number_of_patients_total counter
+discharged_number_of_patients_total 14.0
+# HELP discharged_number_of_patients_created Number of discharged patients
+# TYPE discharged_number_of_patients_created gauge
+discharged_number_of_patients_created 1.7088589485411012e+09
+# HELP flagged_results_total Number of flagged results
+# TYPE flagged_results_total counter
+flagged_results_total 6.0
+# HELP flagged_results_created Number of flagged results
+# TYPE flagged_results_created gauge
+flagged_results_created 1.7088589485411074e+09
+# HELP http_errors_metric_total The number of times the pager HTTP request returned anything other than status 200 (UK)
+# TYPE http_errors_metric_total counter
+http_errors_metric_total 0.0
+# HELP http_errors_metric_created The number of times the pager HTTP request returned anything other than status 200 (UK)
+# TYPE http_errors_metric_created gauge
+http_errors_metric_created 1.7088589485411143e+09
+# HELP positive_rate_prediction Positive rate prediction of AKI
+# TYPE positive_rate_prediction gauge
+positive_rate_prediction 0.1
+# HELP running_latency_mean Running mean of the latency
+# TYPE running_latency_mean gauge
+running_latency_mean 0.025147365311444816
+# HELP median_creatine_result median creatine result
+# TYPE median_creatine_result gauge
+median_creatine_result 89.77179335370508
+Timestamp: 2024-02-25 19:28:21
+# HELP python_gc_objects_collected_total Objects collected during gc
+# TYPE python_gc_objects_collected_total counter
+python_gc_objects_collected_total{generation="0"} 374.0
+python_gc_objects_collected_total{generation="1"} 72.0
+python_gc_objects_collected_total{generation="2"} 18.0
+# HELP python_gc_objects_uncollectable_total Uncollectable objects found during GC
+# TYPE python_gc_objects_uncollectable_total counter
+python_gc_objects_uncollectable_total{generation="0"} 0.0
+python_gc_objects_uncollectable_total{generation="1"} 0.0
+python_gc_objects_uncollectable_total{generation="2"} 0.0
+# HELP python_gc_collections_total Number of times this generation was collected
+# TYPE python_gc_collections_total counter
+python_gc_collections_total{generation="0"} 272.0
+python_gc_collections_total{generation="1"} 24.0
+python_gc_collections_total{generation="2"} 2.0
+# HELP python_info Python platform information
+# TYPE python_info gauge
+python_info{implementation="CPython",major="3",minor="10",patchlevel="12",version="3.10.12"} 1.0
+# HELP process_virtual_memory_bytes Virtual memory size in bytes.
+# TYPE process_virtual_memory_bytes gauge
+process_virtual_memory_bytes 1.17590016e+09
+# HELP process_resident_memory_bytes Resident memory size in bytes.
+# TYPE process_resident_memory_bytes gauge
+process_resident_memory_bytes 1.58892032e+08
+# HELP process_start_time_seconds Start time of the process since unix epoch in seconds.
+# TYPE process_start_time_seconds gauge
+process_start_time_seconds 1.70885894776e+09
+# HELP process_cpu_seconds_total Total user and system CPU time spent in seconds.
+# TYPE process_cpu_seconds_total counter
+process_cpu_seconds_total 10.08
+# HELP process_open_fds Number of open file descriptors.
+# TYPE process_open_fds gauge
+process_open_fds 7.0
+# HELP process_max_fds Maximum number of open file descriptors.
+# TYPE process_max_fds gauge
+process_max_fds 1.048576e+06
+# HELP total_number_of_messages_received_total Number of messages received
+# TYPE total_number_of_messages_received_total counter
+total_number_of_messages_received_total 113.0
+# HELP total_number_of_messages_received_created Number of messages received
+# TYPE total_number_of_messages_received_created gauge
+total_number_of_messages_received_created 1.7088589485410647e+09
+# HELP MLP_socket_reconnections_counter_total Number of reconnections to the MLLP socket
+# TYPE MLP_socket_reconnections_counter_total counter
+MLP_socket_reconnections_counter_total 0.0
+# HELP MLP_socket_reconnections_counter_created Number of reconnections to the MLLP socket
+# TYPE MLP_socket_reconnections_counter_created gauge
+MLP_socket_reconnections_counter_created 1.7088589485410776e+09
+# HELP total_number_of_results_received_total Number of blood test results received
+# TYPE total_number_of_results_received_total counter
+total_number_of_results_received_total 74.0
+# HELP total_number_of_results_received_created Number of blood test results received
+# TYPE total_number_of_results_received_created gauge
+total_number_of_results_received_created 1.7088589485410872e+09
+# HELP admitted_number_of_patients_total Number of admitted patients
+# TYPE admitted_number_of_patients_total counter
+admitted_number_of_patients_total 21.0
+# HELP admitted_number_of_patients_created Number of admitted patients
+# TYPE admitted_number_of_patients_created gauge
+admitted_number_of_patients_created 1.7088589485410945e+09
+# HELP discharged_number_of_patients_total Number of discharged patients
+# TYPE discharged_number_of_patients_total counter
+discharged_number_of_patients_total 18.0
+# HELP discharged_number_of_patients_created Number of discharged patients
+# TYPE discharged_number_of_patients_created gauge
+discharged_number_of_patients_created 1.7088589485411012e+09
+# HELP flagged_results_total Number of flagged results
+# TYPE flagged_results_total counter
+flagged_results_total 7.0
+# HELP flagged_results_created Number of flagged results
+# TYPE flagged_results_created gauge
+flagged_results_created 1.7088589485411074e+09
+# HELP http_errors_metric_total The number of times the pager HTTP request returned anything other than status 200 (UK)
+# TYPE http_errors_metric_total counter
+http_errors_metric_total 0.0
+# HELP http_errors_metric_created The number of times the pager HTTP request returned anything other than status 200 (UK)
+# TYPE http_errors_metric_created gauge
+http_errors_metric_created 1.7088589485411143e+09
+# HELP positive_rate_prediction Positive rate prediction of AKI
+# TYPE positive_rate_prediction gauge
+positive_rate_prediction 0.09333333333333334
+# HELP running_latency_mean Running mean of the latency
+# TYPE running_latency_mean gauge
+running_latency_mean 0.025095920304994326
+# HELP median_creatine_result median creatine result
+# TYPE median_creatine_result gauge
+median_creatine_result 89.45055069595954
